@@ -27,7 +27,7 @@ const App = () => {
 
       totalItems={500} // for total number of items (default to 50 items)
       pageNumberLimit={10} // for number of pageNumbers in the page controller (default to 5 page numbers)
-      boderColor="#000000" // for custom border color of pagination (default color "#fff" which is white color)
+      borderColor="#000000" // for custom border color of pagination (default color "#fff" which is white color)
       labelColor="#000000" // for custom label on button color (default color "#fff" which is white color)
       prevBtnLabel="Prev" // for custom label on button (default label "Prev")
       nextBtnLabel="Next" // for custom label on button (default label "Next")
