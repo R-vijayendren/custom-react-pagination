@@ -31,7 +31,8 @@ const App = () => {
       labelColor="#000000" // for custom label on button color (default color "#fff" which is white color)
       prevBtnLabel="Prev" // for custom label on button (default label "Prev")
       nextBtnLabel="Next" // for custom label on button (default label "Next")
-      moreBtnLabel="&hellip;" // for custom label on more button (default label "&hellip;" which is "..." )
+      morePrevBtnLabel="&lt;&lt;"
+      moreNextBtnLabel="&gt;&gt;" // for custom label on more button (default label "&hellip;" which is "..." )
       itemsInputLabel="Items Per Page" // for custom label on itemsNumber input field (default label "Items Per Page")
     />
   );

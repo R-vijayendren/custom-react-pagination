@@ -12,7 +12,8 @@ const Pagination = ({
   labelColor = "#000000",
   prevBtnLabel = "Prev",
   nextBtnLabel = "Next",
-  moreBtnLabel = "&hellip;",
+  morePrevBtnLabel = <>&hellip;</>,
+  moreNextBtnLabel = <>&hellip;</>,
   itemsInputLabel = "Items Per Page",
 }) => {
   // set initial max pageNumber limit (no of page number in list)
@@ -81,7 +82,7 @@ const Pagination = ({
         onClick={handleNextbtn}
       >
         {" "}
-        {moreBtnLabel}{" "}
+        {moreNextBtnLabel}{" "}
       </li>
     );
   }
@@ -95,7 +96,7 @@ const Pagination = ({
         onClick={handlePrevbtn}
       >
         {" "}
-        {moreBtnLabel}{" "}
+        {morePrevBtnLabel}{" "}
       </li>
     );
   }
