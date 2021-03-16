@@ -2,6 +2,11 @@
 
 In this project directory, we are having a sample for custom pagination component.
 
+1. Simple and light weight.
+1. Customaizable and Reusable.
+1. Responsive.
+1. No-need of dependency packages (except react and react-dom)
+
 ```javascript
 import Pagination from "custom-react-pagination";
 
@@ -42,7 +47,9 @@ const [currentPage, setCurrentPage] = useState(1); // initial page number to sta
 const [userPerPage, setUserPerPage] = useState(10); // initial number of users per page to start.
 ```
 
-In this project, there are two Pagination component of same logic but different stylesheet's. You can use appropriate component by the css usage or scss usage.
+Here is the sample customaized pagination component.
+
+![Sample Image](/sample-pagination.png)
 
 ## Available Scripts
 
