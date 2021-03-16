@@ -13,6 +13,7 @@ const Pagination = ({
   prevBtnLabel = "Prev",
   nextBtnLabel = "Next",
   moreBtnLabel = "&hellip;",
+  itemsInputLabel = "Items Per Page",
 }) => {
   // set initial max pageNumber limit (no of page number in list)
   const [maxPageNumberLimit, setMaxPageNumberLimit] = useState(pageNumberLimit);
@@ -105,9 +106,13 @@ const Pagination = ({
       <div className="paginationWrapper">
         {/* Input Field's Container */}
         <div className="inputContainer">
+          <label style={{ color: labelColor }} htmlFor="pageNumber">
+            Page
+          </label>
           <input
             type="number"
             name="pageNumber"
+            id="pageNumber"
             maxLength="3"
             value={page}
             onChange={(e) =>
@@ -115,9 +120,13 @@ const Pagination = ({
             } /* Setting page number */
             className="inputField"
           />
+          <label style={{ color: labelColor }} htmlFor="itemsNumber">
+            {itemsInputLabel}
+          </label>
           <input
             type="number"
             name="itemsNumber"
+            id="itemsNumber"
             maxLength="3"
             value={itemsPerPage}
             onChange={(e) =>
