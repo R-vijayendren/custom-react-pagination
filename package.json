@@ -1,0 +1,41 @@
+{
+  "name": "custom-react-pagination",
+  "version": "2.0.0",
+  "description": "Custom Pagination Component built upon React JS",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-vijayendren/custom-react-pagination.git"
+  },
+  "keywords": [
+    "pagination",
+    "react-pagination",
+    "custom",
+    "custom-pagination"
+  ],
+  "author": "Vijayendren Rajamanickam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-vijayendren/custom-react-pagination/issues"
+  },
+  "homepage": "https://github.com/R-vijayendren/custom-react-pagination#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
